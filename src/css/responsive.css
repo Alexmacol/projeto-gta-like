@@ -77,7 +77,9 @@
       transparent 65%
     );
   }
-
+.lista-de-jogos {
+    gap: 20px;
+  }
   .compre-ja .cartao .capa-do-jogo {
     max-width: 80%;
   }
