@@ -107,6 +107,7 @@ body {
   text-transform: uppercase;
   width: 50%;
   transition: all 0.3s ease-in;
+  box-sizing: border-box;
 }
 
 .btn-plataforma {

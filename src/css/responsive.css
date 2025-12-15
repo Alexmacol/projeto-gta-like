@@ -77,10 +77,42 @@
       transparent 65%
     );
   }
-.lista-de-jogos {
-    gap: 20px;
-  }
+
   .compre-ja .cartao .capa-do-jogo {
     max-width: 80%;
   }
 }
+
+@media (max-width: 375px) {
+  .home {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 50px;
+    min-height: 0;
+  }
+
+  .home .imagem-fundo {
+    position: absolute;
+    z-index: -1;
+    height: 100vh;
+    width: 100%;
+  }
+
+  .home .informacoes {
+    position: relative;
+    min-height: 0;
+    padding: 15px;
+  }
+  .home .informacoes .titulo {
+    font-size: 28px;
+  }
+
+  .compre-ja .informacoes h3 {
+    font-size: 24px;
+  }
+
+  .compre-ja .cartao {
+    padding: 30px 15px;
+  }
+}
+
